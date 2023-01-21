@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+#bl{
+    font-family: 'Times New Roman', Times, serif;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.card{
+    margin-bottom: 2px;
+    margin-top: 20px;
+    
+   
+}
+.card-header{
+    text-align: center;
+    color: rgb(245, 245, 245);
+    background-color: rgb(77, 75, 75);
+    font-size: 30px;
+}
+#s{
+    color: beige;
+    background-color: red;
+}
+#d{
+    color: beige;
+    background-color: orange;
+}
+#w{
+    color: beige;
+    background-color: yellow;
+}
+#q{
+    color: beige;
+    background-color: rgb(211, 108, 108);
+}
+#a{
+    color: beige;
+    background-color: blue;
+}
+#v{
+    color: beige;
+    background-color: rgb(37, 108, 222);
+}
+#z{
+    color: beige;
+    background-color: rgb(0, 251, 255);
+    font-family: 15px;
+}
+.list-group,.card-header{
+
+    box-shadow: 0px 0px 5px 0px rgb(0, 255, 26);
+}
+.list-group{
+    font-size: 20px;
+}
+@media(max-width:500px) {
+    #bl{
+        margin-left: 60px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
